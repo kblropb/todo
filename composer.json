@@ -1,0 +1,12 @@
+{
+  "require": {
+    "components/jquery": "3.*",
+    "twbs/bootstrap": "3.*",
+    "phpunit/phpunit": "6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app"
+    }
+  }
+}

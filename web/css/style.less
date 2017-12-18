@@ -1,0 +1,85 @@
+html {
+  font-size: 10px;
+  min-width: 320px;
+}
+
+body {
+  font-size: 67.5%;
+}
+
+.navbar {
+  font-size: 1.6rem;
+}
+
+.container, .modal {
+  font-size: 1.6rem;
+}
+
+.modal {
+  .alert {
+    margin-bottom: 0;
+  }
+}
+
+.messages-container {
+  &.alert {
+    padding: 5px 10px;
+    margin-bottom: 0;
+  }
+  .error {
+    font-size: 1.4rem;
+    color: brown;
+  }
+  .success {
+    font-size: 1.4rem;
+  }
+}
+
+#tasks {
+  margin-top: 20px;
+  .section-title {
+    margin-top: 0;
+  }
+}
+
+.table-tasks {
+  td {
+    font-size: 1.4rem;
+  }
+  .task-date {
+  }
+  .task-title {
+    min-width: 150px;
+  }
+  .task-content {
+  }
+  .task-label {
+    text-align: center;
+    font-weight: bold;
+    &[data-label="0"] {
+      color: #000;
+    }
+    &[data-label="1"] {
+      color: green;
+    }
+    &[data-label="2"] {
+      color: gray;
+    }
+  }
+  .task-actions {
+    text-align: center;
+    .btn {
+      margin: 2px;
+      word-spacing: -4px;
+    }
+  }
+}
+
+.clr {
+  clear: both;
+}
+
+textarea {
+  max-width: 100%;
+  width: 100%;
+}
