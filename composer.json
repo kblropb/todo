@@ -1,7 +1,5 @@
 {
-  "require": {
-    "components/jquery": "3.*",
-    "twbs/bootstrap": "3.*",
+  "require-dev": {
     "phpunit/phpunit": "6.*"
   },
   "autoload": {
